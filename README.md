@@ -1,9 +1,5 @@
 # com.castsoftware.labs.ctl.link
 Create links between Mainframe Control Parameters and DB2 Cobol Programs
-
-
-Changes needs to be done in console configuration files.
-
 Code-scanner-config.xml 
  
 <discoverer extensionId="com.castsoftware.uc.asmzos" dmtId="asmzosfilediscoverer"
@@ -18,7 +14,6 @@ Code-scanner-config.xml
             fileExtensions=".ESY;.MAC;.esy;.mac;" label="ESY zOS Files"/>    
 <discoverer extensionId="com.castsoftware.labs.zos.basesas" dmtId="saszosfilediscoverer"
             fileExtensions=".sas;.SAS;" label="SAS zOS Files"/> 
-
 
 dependencies-matrix.xml 
 
