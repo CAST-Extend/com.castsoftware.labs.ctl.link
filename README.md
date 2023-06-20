@@ -4,7 +4,7 @@ Create links between Mainframe Control Parameters and DB2 Cobol Programs
 
 Changes needs to be done in console configuration files.
 
-Code-scanner-config.xml
+Code-scanner-config.xml 
 
 <discoverer extensionId="com.castsoftware.uc.asmzos" dmtId="asmzosfilediscoverer"
             fileExtensions=".asm;.ASM;.mlc;.MLC;.asmacro;.ASMACRO;" label="ASM zOS Files"/>
@@ -20,7 +20,7 @@ Code-scanner-config.xml
             fileExtensions=".sas;.SAS;" label="SAS zOS Files"/> 
 
 
-dependencies-matrix.xml
+dependencies-matrix.xml 
 
 <technology symbol="Mainframe Control Parms" type="language">
     <allow symbol="SQL"/>
