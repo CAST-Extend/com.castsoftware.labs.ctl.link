@@ -19,9 +19,6 @@ Code-scanner-config.xml
 
 dependencies-matrix.xml
 
-	<technology symbol="Mainframe Control Parms" type="language">
-        <allow symbol="SQL"/>
-    </technology>
     <technology symbol="Assembler" type="language">
         <allow symbol="SQL"/>
     </technology>
